@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 20px 35px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.start-btn{
+    background-color: #111;
+    color: white;
+    border: none;
+
+    padding: 16px 28px;
+    border-radius: 14px;
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.hero{
+    margin-top: 55px;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: -5px;
+}
+
+
+.categories{
+    margin-top: 28px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.categories button{
+    background-color: #151515;
+    color: white;
+
+    border: none;
+    border-radius: 999px;
+
+    padding: 14px 24px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.categories .highlight{
+    background-color: #ff5a1f;
+}
+
+
+.cards-section{
+    margin-top: 55px;
+
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 390px;
+
+    background-color: #0c0c0c;
+
+    border-radius: 28px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.image-box{
+    width: 100%;
+    height: 320px;
+
+    position: relative;
+}
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    display: block;
+    border-radius: 28px;
+}
+
+.card-content{
+    padding: 22px;
+}
+
+.tag{
+    display: inline-block;
+
+    background-color: rgba(255, 106, 0, 0.2);
+    color: #ff7a2f;
+
+    padding: 8px 16px;
+    border-radius: 999px;
+
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.card-content h2{
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 500;
+
+    margin-bottom: 18px;
+}
+
+.card-content p{
+    color: #7c7c7c;
+    font-size: 16px;
+}
